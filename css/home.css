@@ -1,0 +1,170 @@
+*{
+    margin:0%;
+    padding:0%;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+nav{ 
+    display:flex;
+    background-color:silver;
+    padding:7px;
+    justify-content: space-between; 
+    box-shadow: 0px 2px 2px 2px dimgray;
+
+}
+#logo{
+    margin-left:40px;
+    font-size:30px;
+    
+}
+#logo h1{
+    font-size:60px;
+}
+form {
+    align-items: center;
+    margin-top: 55px;
+  }
+  
+  input{
+    padding: 9px;
+    font-size: 15px;
+    border: 1px solid ;
+    border-radius: 5px;
+    margin-right:10px;
+    width: 350px;
+  }
+  
+  button {
+    padding: 9px;
+    font-size: 15px;
+    background-color:rgb(8, 130, 154);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:lightskyblue;
+  }
+ul{
+    margin-right:45px;
+    margin-top:7px;}
+
+nav ul li{
+    list-style: none;
+}
+ul li a{
+    margin-inline: 20px;
+    text-decoration: none;
+    font-size:35px;
+    color: black;
+}
+ul li #home{
+    color: rgb(8, 130, 154);   
+}
+ul li a:hover{
+    background-color: whitesmoke;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main .maintext{
+    margin-top: 144px;
+}
+.maintext h1{
+    font-size:65px ;
+}
+.maintext h2{
+    font-size:35px ;
+}
+.maintext .top{
+    color: rgb(8, 130, 154); 
+}
+.maintext p{
+    margin-top: 12px;
+    font-size: 30px;
+}
+.maintext button{
+    width:145px ;
+    height: 40px;
+    background-color:rgb(8, 130, 154) ;
+    border: none;
+    font-size: 22px;
+    color: aliceblue;
+    margin-top: 30px;
+}
+.maintext button:hover{
+    border: 5px solid gray;
+    background-color:lightcyan;
+    color:rgb(8, 130, 154) ;
+
+}
+#img2{
+    padding-top: 30px;
+}
+#img3{
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+}
+.shoe .head h1 {
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+    color: black;
+    font-size: 40px;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.crd{
+    width: 400px;
+    height: 500px;
+    margin-inline: 11px;
+    background-color: rgb(215, 216, 214);
+    text-align: center;
+    margin-right: 50px;
+    font-size: 15px;
+    color: rgb(50, 50, 50);
+}
+.crd:hover{
+    transform: scale(1.15);
+}
+#id1{
+    color:rgb(206, 150, 6);
+}
+
+
+.footer{
+    background-color: rgb(72, 71, 71);
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 2px 2px 2px 0px dimgray;
+    color:white;
+    margin-top: 100px;}
+.foter{
+    background-color: grey;
+    height: 50px;
+    display: flex;
+    color:lightcyan;
+    font-size: 30px;
+    text-align: center;
+
+}
+.a1{
+    text-decoration: none;
+    color:white ;
+}
+p{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+/* signin css */
+
